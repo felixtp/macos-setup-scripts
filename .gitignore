@@ -37,3 +37,6 @@ install.log
 # Any test directories
 test/
 tests/
+
+# Blog content (separate from repo)
+blog-article.md

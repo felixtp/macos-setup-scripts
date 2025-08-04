@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # macOS Setup Script for Intel MacBook Pro 2019
-# Created for Felix - Sequoia Setup
+# Sequoia Setup - Transform your Mac into a powerful development machine
 # Run with: chmod +x setup-mac.sh && ./setup-mac.sh
 
 set -e  # Exit on any error

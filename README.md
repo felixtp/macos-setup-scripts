@@ -1,21 +1,32 @@
 # macOS Intel MacBook Pro Setup Scripts 🚀
 
-Welcome to your comprehensive macOS setup for Intel MacBook Pro 2019 with Sequoia! These scripts will transform your fresh Mac into a powerful development machine.
+Comprehensive macOS setup scripts for Intel MacBook Pro with Sequoia. Transform your fresh Mac into a powerful development machine with modern tools, security-focused configurations, and the latest developer workflows.
 
 ## Quick Start
 
-1. **Make scripts executable:**
+1. **Install Homebrew** (if not already installed):
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+
+2. **Clone this repository:**
+   ```bash
+   git clone https://github.com/felixtp/macos-setup-scripts.git
+   cd macos-setup-scripts
+   ```
+
+3. **Make scripts executable:**
    ```bash
    chmod +x setup-mac.sh
    chmod +x optional-tools.sh
    ```
 
-2. **Run the main setup:**
+4. **Run the main setup:**
    ```bash
    ./setup-mac.sh
    ```
 
-3. **Run optional tools (after main setup):**
+5. **Run optional tools (after main setup):**
    ```bash
    ./optional-tools.sh
    ```
@@ -87,6 +98,7 @@ This script asks you about each tool before installing:
 #### 🔒 Security
 - **1Password** - Password manager
 - **Bitwarden** - Open-source password manager
+- **Little Snitch** - Network monitoring
 
 #### 🛠️ System Utilities
 - **CleanMyMac X** - System cleaner
@@ -114,7 +126,6 @@ This script asks you about each tool before installing:
 - **pipes.sh** - Animated pipes screensaver
 - **cmatrix** - Matrix-style terminal rain
 - **figlet/toilet** - ASCII art text generators
-- **asciiquarium** - ASCII aquarium animation
 
 #### 🔤 Developer Fonts
 - Fira Code
@@ -185,9 +196,9 @@ All tools in these scripts have been carefully vetted for security:
 
 ## Prerequisites
 
-- macOS Sequoia on Intel MacBook Pro 2019
-- Homebrew installed ✅ (you already have this)
-- iTerm2 installed ✅ (you already have this)
+- macOS Sequoia on Intel MacBook Pro
+- Admin privileges on your Mac
+- Homebrew installed (script will guide you if not installed)
 
 ## What Makes These Tools "Cool" in 2025?
 
@@ -222,6 +233,8 @@ All tools in these scripts have been carefully vetted for security:
 2. **Set up Git SSH keys** for GitHub:
    ```bash
    ssh-keygen -t ed25519 -C "your_email@example.com"
+   eval "$(ssh-agent -s)"
+   ssh-add ~/.ssh/id_ed25519
    ```
 
 3. **Configure VS Code** with your preferred settings
@@ -294,6 +307,14 @@ After running these scripts, you'll have a modern, powerful development environm
 3. Exploring Alfred/Raycast workflows
 4. Setting up cloud provider CLIs
 5. Installing language-specific tools for your projects
+
+## Contributing
+
+Feel free to open issues or submit pull requests if you have suggestions for improvements or additional tools that should be included.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ## Need Help?
 
