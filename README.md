@@ -163,37 +163,6 @@ All tools in these scripts have been carefully vetted for security:
 4. Use strong, unique passwords in your password manager
 5. Keep all tools updated through `brew upgrade`
 
-## 💰 Pricing Overview
-
-**Main Setup Script - All FREE:**
-✅ All essential tools in the main script are completely free
-
-**Optional Tools Pricing:**
-### FREE Tools:
-- **Arc Browser, Discord, Warp Terminal** - Completely free
-- **Raycast, Figma, Slack** - Free with optional paid features  
-- **ImageOptim, Stats, VLC, DevToys** - Free and open source
-- **MongoDB Compass** - Free from MongoDB
-- **All CLI tools** - Free and open source
-
-### One-Time Purchase:
-- **Alfred Pro** - £29 (free version available)
-- **TablePlus** - £59 (free trial available)
-- **Bartender 4** - £15
-- **Proxyman Pro** - £49 (free version available)
-- **Little Snitch** - £45
-
-### Subscription-Based:
-- **1Password** - £2.99/month (family plans available)
-- **CleanMyMac X** - £29.95/year
-- **Zoom Pro** - £11.99/month (free version available)
-- **Spotify Premium** - £9.99/month (free with ads available)
-
-💡 **Money-Saving Tips:**
-- Start with free versions and upgrade only if you need Pro features
-- Many tools offer student discounts
-- Look for bundle deals (especially for productivity apps)
-
 ## Prerequisites
 
 - macOS Sequoia on Intel MacBook Pro
